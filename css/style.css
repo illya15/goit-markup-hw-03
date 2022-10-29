@@ -29,7 +29,7 @@ body {
     
     padding-left: 15px;
     padding-right: 15px;
-    
+    border-bottom: 1px  #ECECEC; 
 
     /* outline: 2px solid tomato; */
 }
@@ -66,7 +66,7 @@ color: var(--accent-color);}
     padding-left: 15px; 
     padding-right: 15px; 
 
-     outline: 2px solid tomato; 
+      outline: 2px solid tomato;  */
 }
  .link {
     text-decoration: none;
@@ -284,7 +284,8 @@ color: #FFFFFF;
 background-color: var(--accent-color);
 }
 .portfolio-img .title{
-      
+    margin-top: 20px;  
+    margin-bottom: 4px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -293,7 +294,8 @@ letter-spacing: 0.06em;
 color: var(--title-tekst-color);
 }
 .portfolio-img .text{
-
+    margin-top: 0px;  
+    margin-bottom: 0px;
 font-size: 16px;
 line-height: 2;
 letter-spacing: 0.03em;
@@ -306,4 +308,8 @@ color:var(--primery-text-color);
     border-radius: 4px;
     min-width: 130;
     text-align: center;
+ }
+ .section {
+    margin-top: 94px;
+    margin-bottom: 94px;
  }
