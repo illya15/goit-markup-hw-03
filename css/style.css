@@ -138,7 +138,7 @@ text-transform: uppercase;
 }
     /* переваги */
 .section{
-
+    margin-bottom: 94px;
 }
 
     .visually-hidden {
@@ -185,11 +185,21 @@ color:var(--primery-text-color);
     }
 /* чим займаймося img */
 
-
+.section-title{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
 /* наша команда */
+
+.section-members{
+padding-top: 94px;
+padding-bottom: 94px;
+
+}
 .members .title {
-    margin-top: 118px;
-    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -198,6 +208,8 @@ letter-spacing: 0.03em;
 color:var(--title-tekst-color);
     }
 .members .profetion-text{
+    margin-top: 0px;
+    margin-bottom: 30px
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
