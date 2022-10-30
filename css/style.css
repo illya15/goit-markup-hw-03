@@ -23,9 +23,14 @@ body {
         padding: 0;
         margin: 0;
          list-style: none;}
+         .item{
+            list-style: none;  
+         }
     
    /* page header */
    .page-header{
+     display: flex;
+    
     
     padding-left: 15px;
     padding-right: 15px;
@@ -66,13 +71,13 @@ color: var(--accent-color);}
     padding-left: 15px; 
     padding-right: 15px; 
 
-      outline: 2px solid tomato;  */
+      /* outline: 2px solid tomato;  */
 }
 
-   .nav {
+.page-header .main-nav { 
     display: flex;
     align-items: center;
-    justify-self: start;
+  
  }
  .link {
     text-decoration: none;
@@ -80,6 +85,7 @@ color: var(--accent-color);}
 
 .site-nav  {
     display: flex;
+    margin-left: 93px;
     }
     /* .site-nav .item:not(:last-child) { */
         /* margin-right: 50px; */
@@ -109,6 +115,7 @@ color: var(--title-tekst-color) ;
 /* маіл тел */
 .mail-phone {
     display: flex;
+    margin-left: auto;
 
 
 }
@@ -190,7 +197,16 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 color: var(--title-tekst-color);
     }
-
+.preference {
+    display: flex;
+}
+/* .site-nav .item:not(:last-child) { */ */
+    /* margin-right: 50px; */
+.preference .item {
+width: 270px;
+background-color: tomato;
+}
+    /* margin-left: 30px; */
 
 
 .preference .title {
@@ -202,7 +218,8 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 color:var(--title-tekst-color) ;
     }
-.preference .text{
+.preference .text:{
+    
     margin-top: 0px;
     margin-bottom: 0px;
 font-size: 14px;
@@ -211,14 +228,21 @@ letter-spacing: 0.03em;
 color:var(--primery-text-color);
     }
 /* чим займаймося img */
-
+.list-imag{
+    display: flex;
+}
+.list-imag .item +.item {
+    margin-left: 30px;
+}
 .section-title{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 50px;
 }
 /* наша команда */
-
+ .members{
+    display: flex;
+ }
 .section-members{
 padding-top: 94px;
 padding-bottom: 94px;
@@ -240,7 +264,7 @@ color:var(--title-tekst-color);
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color:var(--primery-text-color) ;
+color:var(--primery-text-color);
     }
 
 
@@ -289,7 +313,9 @@ color: rgba(255, 255, 255, 0.6);
 
 /* ПОРТФОЛІО */
 .button-portfolio {
+    display: flex;
     
+           
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -298,6 +324,12 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--primery-text-color);
     background-color: #F5F4FA;
 }
+
+
+.button-portfolio .link +.link {
+    margin-left: 8px; }
+
+
 .button-portfolio .link:hover,
 .button-portfolio .link:focus{
 cursor: pointer; 
@@ -330,6 +362,7 @@ color:var(--primery-text-color);
 }
 
  .link{
+    
     display: inline-block; 
     padding: 6px 22px;
     border-radius: 4px;
