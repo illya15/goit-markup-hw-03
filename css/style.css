@@ -329,6 +329,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .street{
+    margin-top: 20px;
 margin-bottom: 9px;
 font-size: 14px;
 line-height: 24px;
