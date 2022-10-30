@@ -170,6 +170,16 @@ text-transform: uppercase;
         color: #FFFFFF;
     }
 /* button */
+
+.link{ 
+    
+    display: inline-block; 
+    padding: 6px 22px;
+    border-radius: 4px;
+    min-width: 130;
+    text-align: center;
+ }
+
 .button {
     display: inline-block;
     border: 1px solid transparent;
@@ -350,6 +360,9 @@ color: rgba(255, 255, 255, 0.6);
 
 
 /* ПОРТФОЛІО */
+
+
+
 .button-portfolio {
     display: flex;
     margin-left: auto;
@@ -433,14 +446,7 @@ letter-spacing: 0.03em;
 color:var(--primery-text-color);
 }
 
- .link{
-    
-    display: inline-block; 
-    padding: 6px 22px;
-    border-radius: 4px;
-    min-width: 130;
-    text-align: center;
- }
+ 
  .section {
     margin-top: 94px;
     margin-bottom: 94px;
