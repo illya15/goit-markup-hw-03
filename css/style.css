@@ -115,16 +115,16 @@ color: var(--title-tekst-color) ;
 /* маіл тел */
 .mail-phone {
     display: flex;
-    margin-left: auto;
+     margin-left: auto;
 
 
 }
 
-    .mail-phone :not(:last-child) {
+    .mail-phone :not(:last-child) { 
         margin-right: 50px;
 
         color:var(--primery-text-color);
-}
+    }
 .mail-phone .link:hover,
 .mail-phone .link:focus {
    
@@ -197,19 +197,15 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 color: var(--title-tekst-color);
     }
-.preference {
+.preference  {
     display: flex;
 }
-/* .site-nav .item:not(:last-child) { */ */
-    /* margin-right: 50px; */
-.preference .item {
-width: 270px;
-background-color: tomato;
-}
-    /* margin-left: 30px; */
+    .preference .items +.items{
+        margin-left: 50px;
+        /* background-color: tomato; */
+    }
 
-
-.preference .title {
+    .preference .title {
     margin-top: 0px;
     margin-bottom: 10px;
 font-weight: 700;
@@ -218,7 +214,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 color:var(--title-tekst-color) ;
     }
-.preference .text:{
+.preference .text {
     
     margin-top: 0px;
     margin-bottom: 0px;
@@ -243,6 +239,12 @@ color:var(--primery-text-color);
  .members{
     display: flex;
  }
+ .members .item + .item{
+    margin-left: 30px;
+    /* background-color: tomato; */
+}
+
+ 
 .section-members{
 padding-top: 94px;
 padding-bottom: 94px;
@@ -254,15 +256,16 @@ padding-bottom: 94px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-text-align: left;
+text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-tekst-color);
     }
 .members .profetion-text{
     margin-top: 0px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 font-size: 16px;
 line-height: 1.19;
+text-align: center;
 letter-spacing: 0.03em;
 color:var(--primery-text-color);
     }
@@ -270,6 +273,13 @@ color:var(--primery-text-color);
 
 /* футер */
 .footer {
+    
+        padding-top: 60px;
+        padding-bottom: 60px;
+        /* margin-bottom: 94px; */
+        text-align: left;
+       
+    
     background-color:#2F303A;
 }
 .logo-footer{
@@ -302,7 +312,7 @@ color: #FFFFFF;
 }
 .tel-footer { 
 
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
