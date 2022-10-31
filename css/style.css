@@ -185,6 +185,7 @@ text-transform: uppercase;
     border-radius: 4px;
     min-width: 130;
     text-align: center;
+
  }
 
 .button {
@@ -378,17 +379,23 @@ color: rgba(255, 255, 255, 0.6);
     display: flex;
     padding-bottom: 50px;
     justify-content: center;
+    border: 1px solid transparent;
     /* margin-left: auto;  */
     /* margin-right: auto; */
    }
     
    .button-portfolio .list{
+
+   
+    border: 1px solid transparent;
+    background: #F5F4FA;
+    border-radius: 4px;
     margin-right: 8px;
    }
 
 .button-portfolio .link:hover,
 .button-portfolio .link:focus{
-
+    cursor: pointer;
 color: #FFFFFF;
 background-color: var(--accent-color);
 }
@@ -414,17 +421,22 @@ background-color: var(--accent-color);
     margin-bottom: 0px;
     
  }
+
+.link-img .title{
+
+}
+
 .portfolio-img .title{
 
     
     margin-top: 20px;
-    margin-left: 24; 
-    margin-right: 24; 
+    padding-left: 24px; 
+    margin-right: 24px; 
     margin-bottom: 4px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-text-align: left;
+
 letter-spacing: 0.06em;
 
 color: var(--title-tekst-color);
